@@ -9,7 +9,8 @@ html {
   font-family: Roboto;
 }
 
-.header-section {
+.header-section,
+.hero-wrapper {
   background-color: #1f2937;
 }
 
@@ -17,11 +18,12 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1066px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.logo {
+.header-logo {
+  text-decoration: none;
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
@@ -33,8 +35,20 @@ html {
   list-style-type: none;
 }
 
-ul li {
+.header-link {
+  text-decoration: none;
   padding: 16px;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.first-image {
+  width: 700px;
+  height: auto;
+}
+
+.hero-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
 }
