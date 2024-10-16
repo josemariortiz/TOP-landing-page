@@ -50,5 +50,22 @@ html {
 .hero-section {
   display: flex;
   max-width: 1200px;
+  margin: 50px auto;
+}
+
+.hero-left {
+  padding-right: 10px;
+}
+
+.information-section {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
+}
+
+.informations {
+  display: flex;
+  justify-content: center;
 }
