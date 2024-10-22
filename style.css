@@ -69,3 +69,30 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.information p {
+  font-size: 1.1rem;
+  max-width: 200px;
+  border: 1px solid;
+  gap: 16px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* .information-image {
+  max-width: 200px;
+  border: 2px solid;
+  gap: 16px;
+  padding: 10px;
+  margin: 10px;
+} */
+
+.image-holder {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  gap: 16px;
+  padding: 10px;
+  margin: 10px;
+}
